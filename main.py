@@ -2,7 +2,7 @@ from flask import Flask, request
 from waitress import serve
 
 app = Flask(__name__)
-@app.route("/helloworld", methods=["GET"])
+@app.route("/faas-helloworld", methods=["GET"])
 def service():
 
     # Mostrar el resultado
