@@ -1,4 +1,4 @@
-FROM python
+FROM python:alpine3.11
 COPY . /usr/src/app
 WORKDIR /app
 COPY setup.py ./
